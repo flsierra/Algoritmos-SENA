@@ -1,0 +1,21 @@
+entero a,suma,suma1
+inicio
+a<-0
+suma<-0
+suma1<-0
+para a <- 1 hasta 100 haga 
+a <-a+1 
+suma<-suma+a
+escriba a
+fin para
+llamar nueva_linea
+escriba"la suma de los pares es ",suma
+llamar nueva_linea
+para a <- 0 hasta 100 haga
+a <- a+1
+suma1<- suma1+a
+escriba a
+fin para
+llamar nueva_linea
+escriba " la suma de los impares es ",suma1
+fin

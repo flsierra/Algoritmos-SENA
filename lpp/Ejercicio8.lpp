@@ -1,0 +1,21 @@
+entero c,eq,m,ci,i
+inicio
+escriba "Ingrese valor"
+lea c
+si c >= 20000000 entonces
+llamar nueva_linea
+eq<- (35*c)/100
+m<- (25*c)/100
+ci<- (20*c)/100
+i<- (20*c)/100
+sino
+eq<- (35*c)/100
+m <- (25*c)/100
+ci<- (20*c)/100
+i<- (20*c)/100
+fin si
+escriba "Se destinara para la compra de equipos de computo ",eq
+escriba "mobiliario",m
+escriba "compra de insumos ",ci
+escriba "insentivo",i
+fin

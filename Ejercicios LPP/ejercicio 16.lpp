@@ -1,0 +1,12 @@
+entero a,b,c,d,f,g,resultado
+cadena[10] numero
+inicio
+
+escriba "Digite la cantidad de metros"
+lea a,b,c
+d<- a-b
+f<- d/c
+g<- f*1/100
+resultado<- g+f
+escriba "Total a pgar mensual",resultado
+fin

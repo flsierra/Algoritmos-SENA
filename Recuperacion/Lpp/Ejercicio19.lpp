@@ -1,0 +1,7 @@
+entero a,l
+inicio 
+escriba "Digite lado"
+lea l
+a<-l*l
+escriba "El area del cuadrado es ",a
+fin 

@@ -1,0 +1,10 @@
+entero a,b,c,resultado
+cadena[10] numero
+inicio
+escriba "Digite la cantidad de metros"
+lea a
+b<- 30*30/6
+c<- b/100
+resultado<- a/c
+escriba "La cantidad de baldosas a emplear es",resultado
+fin

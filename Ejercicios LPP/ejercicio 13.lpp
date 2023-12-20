@@ -1,0 +1,11 @@
+entero a,b,resultado
+cadena[10] numero
+inicio
+
+escriba "Digite los litros"
+lea a
+b<- a/3.74
+resultado<- b*7000
+escriba "El numero de galones es",b
+escriba "El costo total es de  ",resultado
+fin

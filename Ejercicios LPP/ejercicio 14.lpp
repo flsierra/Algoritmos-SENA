@@ -1,0 +1,9 @@
+entero a,resultado
+cadena[10] numero
+inicio
+
+escriba "Digite velocidad"
+lea a
+resultado<- a/800
+escriba "Las horas que tardara el vuelo es",resultado
+fin

@@ -1,0 +1,62 @@
+entero a,b,c,d,e,f,g,h,Total,Total1,aprobo,noaprobo
+inicio
+escriba "Digite notas"
+lea a,b,c,d,e,f
+g<-0
+h<-0
+Total<-0
+Total1<-0
+si a>=30 entonces
+llamar nueva_linea
+g<- g+1
+Total<- Total+a
+sino
+h<-g+1
+Total1<-Total+a
+fin si
+si b>=30 entonces
+llamar nueva_linea
+g<- g+1
+Total<- Total+b
+sino
+h<-g+1
+Total1<-Total+b
+fin si
+si c>=30 entonces
+llamar nueva_linea
+g<- g+1
+Total<- Total+c
+sino
+h<-g+1
+Total1<-Total+c
+fin si
+si d>=30 entonces
+llamar nueva_linea
+g<-g+1
+Total<- Total+d
+sino
+h<-g+1
+Total1<-Total+d
+fin si
+si e>=30 entonces
+llamar nueva_linea
+g<-g+1
+Total<-Total+e
+sino
+h<-g+1
+Total1<-Total+e
+fin si
+si f>=30 entonces
+llamar nueva_linea
+g<-g+1
+Total<-Total+f
+sino
+h<-g+1
+Total1<- Total+e
+fin si
+aprobo<-Total/g
+noaprobo<-Total1/h
+escriba "Las notas que aprobo son",aprobo
+escriba "Las notas no aprobadas son",noaprobo
+fin
+

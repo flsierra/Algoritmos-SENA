@@ -1,0 +1,33 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+18
+'Escriba el valor'
+5
+1
+1
+A
+6
+3
+1
+C
+4
+A*16
+1
+D
+5
+C/100
+1
+E
+3
+D+A
+4
+1
+63
+'el iva es igual a',D,'el valor digitado es ', A,'la suma es',E
+1

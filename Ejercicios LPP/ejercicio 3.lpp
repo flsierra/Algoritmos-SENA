@@ -1,0 +1,12 @@
+entero a,b,c,d, resultado 
+cadena[10] numero
+inicio
+
+escriba "Digite valores"
+lea a,b,c,d
+
+resultado <- (a-b)/c-d
+
+escriba "el resultado es"
+escriba resultado
+fin

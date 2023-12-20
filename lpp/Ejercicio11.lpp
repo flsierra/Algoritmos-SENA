@@ -1,0 +1,29 @@
+entero x,g
+inicio
+escriba "digite horas"
+lea x
+si x <=2 entonces 
+llamar  nueva_linea
+g<-x*5000
+escriba "valor",g
+sino
+fin si
+si (x >=3) y (x<5) entonces
+llamar nueva_linea
+g<- x*4000
+escriba "valor",g
+sino
+fin si
+si (x >=5 )y (x<10) entonces
+llamar nueva_linea
+g<- x*3000
+escriba "valor",g
+sino
+fin si
+si x > 10 entonces 
+llamar nueva_linea
+g<- x*2000
+escriba "valor",g
+sino
+fin si
+fin

@@ -1,0 +1,16 @@
+entero a,b,c,d,e,f,g
+cadena[10] numero
+inicio
+
+escriba "Escriba los valores "
+lea a,b,c
+d<-a+b+c
+e<-(a*100)/d
+f<-(b*100)/d
+g<-(c*100)/d
+
+
+escriba "la inversion de cliente 1 es de ",e
+escriba "la inversion de cliente 2 es de ",f
+escriba "la inversion de cliente 3 es de",g
+fin

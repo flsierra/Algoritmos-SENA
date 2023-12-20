@@ -1,0 +1,9 @@
+entero a,resultado
+cadena[10] numero
+inicio
+
+escriba "Digite la distancia a recorrer"
+lea a
+resultado<- a/80
+escriba "Las cantidad de galones que requiere son",resultado
+fin

@@ -1,0 +1,9 @@
+entero a,b,f,r
+inicio 
+escriba "Digite año en que nacio"
+lea a 
+b <- a
+f <- 2017
+r <- f-a
+escriba "Su edad es ",r
+fin 

@@ -1,0 +1,17 @@
+entero a,b,c,d,e,f,resultado
+cadena[10] numero
+inicio
+
+escriba "Digite las horas"
+lea a,b,c
+d<-6000*a
+e<-18000*b
+f<-10000*c
+resultado<- d+e+f
+
+escriba "los precios trabajados son "
+escriba "Diurno ",d
+escriba "Nocturno ",e
+escriba "Fin de Semana ",f
+escriba "total trabajado ",resultado
+fin

@@ -1,0 +1,39 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+23
+'Digite su edad actual'
+5
+1
+1
+a
+6
+3
+1
+b
+6
+(a*12)
+1
+c
+5
+(b*4)
+1
+d
+5
+(c*7)
+6
+1
+1
+e
+6
+(d*24)
+4
+1
+72
+'Meses de vida',b,'Semanas de vida',c,'Dias vividos',d,'Horas vividas',e
+1

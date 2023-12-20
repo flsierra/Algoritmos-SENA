@@ -1,0 +1,45 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+13
+'Digite dias'
+5
+1
+1
+a
+4
+1
+25
+'Digite gastos en comida'
+5
+1
+1
+b
+4
+1
+28
+'Digite gastos de hospedaje'
+5
+1
+1
+c
+6
+2
+1
+d
+8
+(100000)
+1
+e
+11
+((a*d)+b+c)
+4
+1
+44
+'Los gastos en la Ciudad de Monterrey son',e
+1

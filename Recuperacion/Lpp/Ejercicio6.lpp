@@ -1,0 +1,7 @@
+entero a,b,c
+inicio 
+escriba "Digite Catetos"
+lea a,b
+c <- a*a+b*b
+escriba "La hipotenusa del triangulo rectangulo es ",c
+fin 

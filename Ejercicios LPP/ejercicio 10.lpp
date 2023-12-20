@@ -1,0 +1,13 @@
+entero a,b,resultado
+cadena[10] numero
+inicio
+
+escriba "Escriba el salario"
+lea a
+b<-a*4/100
+resultado<-a*8/100
+
+escriba "sabiendo que su salario es ",a
+escriba "si es empleado le toca pagar ",b
+escriba "o por el contrario es empleador le corresponde pagar ",resultado
+fin

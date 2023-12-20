@@ -1,0 +1,10 @@
+entero a,c
+inicio
+escriba "digite numero"
+lea a
+c <- 0
+para c <- 0 hasta a haga 
+c <- 1*c 
+escriba c
+fin para
+fin

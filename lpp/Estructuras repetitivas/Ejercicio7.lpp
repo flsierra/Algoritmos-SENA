@@ -1,0 +1,25 @@
+entero a,cont,num
+inicio
+escriba "digite multiplo 2 o 3"
+lea num
+a<-0
+cont <- 0
+si num =2 entonces
+para a  <- 2 hasta 100 haga
+a <- a+1
+escriba "el numero ",a," es multipliplo de 2"
+cont <- cont+1
+llamar nueva_linea
+fin para
+escriba "hay ", cont," multiplos de 2" 
+llamar nueva_linea
+sino
+para a <- 3 hasta 100 haga
+a <- a+2
+escriba "el nuemero ",a," es multiplo de 3"
+cont <- cont+1
+fin para
+fin si
+llamar nueva_linea
+escriba "hay ",cont," es multiplo de 3"
+fin

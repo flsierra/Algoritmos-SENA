@@ -1,0 +1,19 @@
+entero a,b,r,s,m
+inicio
+escriba "digite dos numeros"
+lea a,b
+si a >= b entonces
+llamar nueva_linea
+s<- a+b
+escriba "resultado",s
+sino
+r<- a-b
+escriba "",r
+fin si
+si a = b entonces 
+llamar nueva_linea
+m<- a*b
+escriba "",m
+
+fin si
+fin

@@ -1,0 +1,12 @@
+entero a,b,resultado 
+cadena[10] numero
+inicio
+
+escriba "Digite el numero"
+lea a,b
+
+resultado <- a+b
+
+escriba "la suma es"
+escriba resultado
+fin

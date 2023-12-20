@@ -1,0 +1,12 @@
+entero b,h,resultado
+cadena[10] numero
+inicio
+
+escriba "Escriba el valor"
+lea b,h
+
+resultado <- (b*h)/2
+
+escriba "el resultado es",resultado
+
+fin

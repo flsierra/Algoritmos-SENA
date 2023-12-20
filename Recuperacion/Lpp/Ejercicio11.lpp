@@ -1,0 +1,7 @@
+entero a,b
+inicio 
+escriba "Digite cantidad de kilovatios"
+lea a 
+b<-482.7840*a
+escriba "El valor a pagar",b
+fin 

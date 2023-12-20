@@ -1,0 +1,9 @@
+entero a,b,c
+inicio
+escriba "Digite kilometros a recorrer"
+lea a
+escriba "Digite el valor del boleto"
+lea b
+c<- a*b
+escriba "El costo total del boleto es ",c
+fin

@@ -1,0 +1,14 @@
+entero a,b,c,resultado
+cadena[10] numero
+inicio
+
+escriba "Digite la cantidad de segundos"
+lea a
+b<-a/60
+c<-b/60
+resultado<-c*60+b/60
+
+escriba "resultado en minutos ",b
+escriba "resultado en horas ",c
+escriba "resultado de segundos restantes ",resultado
+fin

@@ -1,0 +1,9 @@
+entero a,b,c,d,e,f
+inicio
+	escriba "Digite las notas "
+	lea a,b,c
+	d<- (a+b)/2
+	e<- c
+	f<- (d+e)/2
+	escriba "El promedio final es",f
+	fin

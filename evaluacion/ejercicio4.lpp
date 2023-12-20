@@ -1,0 +1,16 @@
+entero a,b,c,d,e,f,g
+cadena[10] numero
+inicio
+escriba "digite el numero"
+lea a
+b<- a/1000
+c<- a mod 1000
+d<- c/100
+e<- c mod 100
+f<- e/10
+g<- e mod 10
+
+escriba " El resultado inverso es ",g,f,d,b
+
+fin
+

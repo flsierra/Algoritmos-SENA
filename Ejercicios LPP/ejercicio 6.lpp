@@ -1,0 +1,14 @@
+entero a,b,c,d,e,resultado
+cadena[10] numero
+inicio
+
+escriba "Escriba las calificaciones"
+lea a,b,c,d
+
+e<- a+b+c+d
+resultado<- e/4
+
+
+escriba "el promedio es",resultado
+
+fin

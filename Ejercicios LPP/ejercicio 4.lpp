@@ -1,0 +1,15 @@
+entero a,c,d,e
+cadena[10] numero
+inicio
+
+escriba "Escriba el valor"
+lea a
+
+c <- a*16
+d <- c/100
+e <- d+a
+
+escriba "el iva es",d
+escriba "el valor digitado es",a
+escriba "la suma es",c
+fin

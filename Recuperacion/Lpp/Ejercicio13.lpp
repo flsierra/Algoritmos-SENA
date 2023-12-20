@@ -1,0 +1,9 @@
+entero a,b,c,d
+inicio 
+escriba "Digite salario"
+lea a 
+b<-(15*a)/100
+c<-b*4
+d<-c*12
+escriba "El dinero ahorrado en un año es",d
+fin 

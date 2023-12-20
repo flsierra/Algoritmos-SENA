@@ -1,0 +1,58 @@
+Entero Prima, Producto, Mano, Fabricacion, Produccion, ProduccionT, Venta
+Inicio
+Escriba " Ingrese la materia prima "
+Lea Prima
+Escriba " Que producto en tre el 1 al 6 desea "
+Lea Producto
+Si Producto>1 Entonces
+Sino
+Mano <- (Prima*80)/100
+Fabricacion <- (Prima*28)/100
+Produccion <- Prima+Mano+Fabricacion
+ProduccionT <- (Produccion*45)/100
+Venta <- Produccion+ProduccionT
+Escriba "El precio de venta es ", Venta
+Fin si
+Si Producto>2 Entonces
+Sino
+Mano <-(Prima*85)/100
+Fabricacion <- (Prima*30)/100
+Produccion <- Prima+Mano+Fabricacion
+ProduccionT <- (Produccion*45)/100
+Venta <- Produccion+ProduccionT
+Escriba " El precio de venta es: " , Venta 
+Fin si
+Si Producto>3 Entonces
+Sino
+Mano <-(Prima*75)/100
+Fabricacion <- (Prima*35)/100
+Produccion <- Prima+Mano+Fabricacion
+ProduccionT <- (Produccion*45)/100
+Venta <- Produccion+ProduccionT
+Escriba " El precio de venta es: " , Venta 
+Fin si
+Si Producto>4 Entonces
+Sino
+Mano <-(Prima*75)/100
+Fabricacion <- (Prima*28)/100
+Produccion <- Prima+Mano+Fabricacion
+ProduccionT <- (Produccion*45)/100
+Venta <- Produccion+ProduccionT
+Escriba " El precio de venta es: " , Venta 
+Fin si
+Si Producto>5 Entonces
+Mano <-(Prima*85)/100
+Fabricacion <- (Prima*35)/100
+Produccion <- Prima+Mano+Fabricacion
+ProduccionT <- (Produccion*45)/100
+Venta <- Produccion+ProduccionT
+Escriba " El precio de venta es: " , Venta 
+Sino
+Mano <-(Prima*85)/100
+Fabricacion <- (Prima*30)/100
+Produccion <- Prima+Mano+Fabricacion
+ProduccionT <- (Produccion*45)/100
+Venta <- Produccion+ProduccionT
+Escriba " El precio de venta es: " , Venta 
+Fin si
+Fin

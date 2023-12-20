@@ -1,0 +1,7 @@
+real a,b
+inicio 
+escriba "Digite la cantidad de pesos mexicanos"
+lea a 
+b <- (a*0.05)
+escriba "La cantidad de dolares es ",b
+fin 

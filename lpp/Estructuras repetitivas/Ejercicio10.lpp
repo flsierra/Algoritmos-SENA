@@ -1,0 +1,50 @@
+entero x,a,promedio1,promedio2,promedio3,promedio4,cont1,cont2,cont3,cont4,peso,edad,promedioT1,promedioT2,promedioT3,promedioT4
+inicio
+a<-0
+promedio1<-0
+promedio2<-0
+promedio3<-0
+promedio4<-0
+cont1<-0
+cont2<-0
+cont3<-0
+cont4<-0
+para a <- 1 hasta 20 haga
+a<- a+1
+escriba "Digite su peso"
+lea peso
+escriba "Digite su edad"
+lea edad 
+si edad > 12 entonces
+sino
+promedio1<-promedio1+peso
+cont1<- cont1+1
+fin si
+si edad > 30 entonces
+sino 
+promedio2<- promedio2+peso
+cont2<- cont2+1
+fin si 
+si edad >59 entonces
+llamar nueva_linea
+promedio4<- promedio4+peso
+cont4<- cont4+1
+sino
+promedio3<- promedio3+peso
+cont3<- cont3+1
+fin si
+fin para 
+promedioT1<- promedio1/cont1
+promedioT2<- promedio2/cont2
+promedioT3<- promedio3/cont3
+promedioT4<- promedio4/cont4
+escriba "hay ",cont1," menores a 0"
+llamar nueva_linea
+escriba "El promedio de peso de la categoria niños entre 0-12 años es ", promedioT1
+llamar nueva_linea
+escriba "El promedio de peso de la categoria Jovenes entre 13-29 años es  ",promedioT2
+llamar nueva_linea
+escriba "El promedio de peso de la categoria Adultos entre 30-59 años es ",promedioT3
+llamar nueva_linea
+escriba "El promedio de peso de la categoria Viejos entre 60 años en adelante es ",promedioT4
+fin

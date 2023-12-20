@@ -1,0 +1,13 @@
+real a,b,c,d,e
+inicio
+	escriba "Digite  dias  "
+	lea a
+	escriba "Digite  gastos en comida  "
+	lea b
+	escriba "Digite  gastos en hospedaje"
+	lea c
+	d<-(100000)
+	e<-((a*d)+b+c)
+	llamar nueva_linea
+	escriba "Gastos en la ciudad de Monterrey = ",e
+fin

@@ -1,0 +1,7 @@
+entero a,b
+inicio 
+escriba "Digite cantidad de metros cubicos"
+lea a 
+b<-a*730
+escriba "La cantidad a pagar respecto a los metros cubicos gastados son",b
+fin 

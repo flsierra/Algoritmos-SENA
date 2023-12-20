@@ -1,0 +1,15 @@
+entero a,mul,fac,num,num1,b
+inicio
+escriba "digite numero"
+lea num
+a <- 1
+mul <- num
+fac <- 1
+para a <- -num hasta -1 haga
+b <- a*-1
+num1 <- num-fac
+mul <- mul*num1
+fac <- fac+1
+escriba "el factorial de ",num," por ",num1," es ",mul
+fin para
+fin

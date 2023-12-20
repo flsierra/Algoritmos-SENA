@@ -1,0 +1,49 @@
+entero A,TeoricasPrecio,TeoricasPPrecio,Promedio,Teoricas,TeoricasP,TotalTeoricas,TotalTeoricasP,Matricula,MatriculaD,MatriculaT
+inicio
+A<-0
+TeoricasPrecio<-45000
+TeoricasPPrecio<-68000
+para A<- 1 hasta 5 haga
+A<- A+1
+escriba "Ingrese su promedio entre 1.0 a 5.0"
+lea Promedio
+si Promedio>4.0 entonces
+sino 
+escriba "Puede cursar 5 asignaturas"
+escriba "Cuantas asignaturas son teóricas"
+lea Teoricas
+escriba "Cuantas asignaturas son teórica practicas"
+lea TeoricasP
+TotalTeoricas<-Teoricas*TeoricasPrecio
+TotalTeoricasP<-TeoricasP*TeoricasPPrecio
+Matricula<-TotalTeoricas+TotalTeoricasP
+escriba "Su promedio es",Promedio,"con 5 asignaturas ",Teoricas,"Teoricas con un total a pagar de ",TotalTeoricas,"y",TeoricasP,"Teoricas Practicas con un total a pagar de",TotalTeoricasP,"el valor de matricula sera",Matricula," con un descuento del 0%"
+fin si
+si Promedio>4.5 entonces
+llamar nueva_linea
+escriba "Puede cursar 8 asignaturas"
+escriba "Cuantas asignaturas son teóricas"
+lea Teoricas
+escriba "Cuantas asignaturas son teórica practicas"
+lea TeoricasP
+TotalTeoricas<- Teoricas*TeoricasPrecio
+TotalTeoricasP<- TeoricasP*TeoricasPPrecio
+Matricula<- TotalTeoricas+TotalTeoricasP
+MatriculaD<- (Matricula*50)/100
+MatriculaT<-  Matricula-MatriculaD
+escriba "Su promedio es",Promedio,"con 5 asignaturas ",Teoricas,"Teoricas con un total a pagar de ",TotalTeoricas,"y",TeoricasP,"Teoricas Practicas con un total a pagar de",TotalTeoricasP,"el valor de matricula sera",MatriculaT," con un descuento del 50%"
+sino
+escriba "Puede cursar 6 asignaturas"
+escriba "Cuantas asignaturas son teóricas" 
+lea Teoricas
+escriba "Cuantas asignaturas son teórica practicas"
+lea TeoricasP
+TotalTeoricas<- Teoricas*TeoricasPrecio
+TotalTeoricasP<- TeoricasP*TeoricasPPrecio
+Matricula<- TotalTeoricas+TotalTeoricasP
+MatriculaD<- (Matricula*25)/100
+MatriculaT<- Matricula-MatriculaD
+escriba "Su promedio es",Promedio,"con 5 asignaturas ",Teoricas,"Teoricas con un total a pagar de ",TotalTeoricas,"y",TeoricasP,"Teoricas Practicas con un total a pagar de",TotalTeoricasP,"el valor de matricula sera",MatriculaT," con un descuento del 25%"
+fin si
+fin para 
+fin

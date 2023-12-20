@@ -1,0 +1,16 @@
+entero cont,lecturas,lec,a,x,c
+inicio
+cont <- 1
+lecturas <- 10
+para a<- 1 hasta lecturas haga
+x<- x+1
+escriba "Ingrese lectura número",cont
+lea lec
+cont <- cont+1
+fin para
+para a <- -lecturas hasta 1 haga
+c <- x * -1
+escriba "La lectura ",Cont, " que usted ingreso es ",Lec
+cont <- cont - 1 
+fin para
+fin

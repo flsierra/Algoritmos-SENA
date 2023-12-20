@@ -1,0 +1,25 @@
+entero a,z
+inicio
+escriba "digite numero"
+lea a
+si a mod 2= 0 entonces
+escriba " el numero",a,"es par"
+llamar nueva_linea
+sino
+escriba "el numero",a,"es impar"
+fin si
+si a =2 entonces
+escriba" es primo"
+llamar nueva_linea
+escriba" es primo"
+sino
+z<-(a mod 2)
+si z=0 entonces
+escriba " no es primo"
+sino
+si z=1 entonces 
+escriba " es primo"
+fin si
+fin si
+fin si 
+fin

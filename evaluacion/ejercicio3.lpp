@@ -1,0 +1,13 @@
+real a,b,c,d,resultado
+cadena[10] numero
+inicio
+escriba "digite valores"
+lea b,a
+c<-b*a
+d<-3.141516*b*b/2
+resultado<-c+d
+escriba " El area del triangulo es",c
+escriba " El area de la circunferencia es",d
+escriba " El area total es de ",resultado
+fin
+

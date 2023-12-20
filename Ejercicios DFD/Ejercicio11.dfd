@@ -1,0 +1,33 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+32
+'Digite la cantidad de segundos'
+5
+1
+1
+a
+6
+3
+1
+b
+4
+a/60
+1
+c
+4
+b/60
+1
+d
+9
+c*60+b/60
+4
+1
+90
+'El resultado en minutos es',b,'el resultado en horas es',c,'los segundos restantes son',d
+1

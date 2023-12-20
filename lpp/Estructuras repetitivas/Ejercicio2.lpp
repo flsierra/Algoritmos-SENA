@@ -1,0 +1,9 @@
+entero a,x
+inicio
+a <- 100
+para a <- -100 hasta -1 haga
+x <- a*1
+escriba a
+fin para 
+fin
+

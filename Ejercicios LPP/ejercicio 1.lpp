@@ -1,0 +1,7 @@
+Cadena[25] nombre,completo
+Inicio
+Escriba "Su Nombre"
+Lea nombre
+Completo<- nombre 
+Escriba "Bienvenido" , completo
+Fin

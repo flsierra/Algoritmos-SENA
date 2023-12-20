@@ -1,0 +1,125 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+16
+'Digite Valores'
+5
+1
+9
+a,b,c,d,e
+7
+0
+1
+27
+a>b and a>c and a>d and a>e
+7
+0
+1
+27
+b>a and b>c and b>d and b>e
+7
+0
+1
+27
+c>a and c>b and c>d and c>e
+7
+0
+1
+30
+d> a and d > b and d>c and d>e
+7
+0
+1
+28
+e> a and e>b and e>c and e>d
+13
+4
+1
+27
+'El numero 5:',e,'Es mayor'
+13
+13
+4
+1
+27
+'El numero 4:',d,'Es mayor'
+13
+13
+4
+1
+27
+'El numero 3:',c,'Es mayor'
+13
+13
+4
+1
+27
+'El numero 2:',b,'Es mayor'
+13
+13
+4
+1
+27
+'El numero 1:',a,'Es mayor'
+13
+7
+0
+1
+28
+a<b and a<c and a <d and a<e
+13
+4
+1
+27
+'El numero 1:',a,'Es menor'
+7
+0
+1
+27
+b<a and b<c and b<d and b<e
+4
+1
+27
+'El numero 2:',b,'Es menor'
+13
+7
+0
+1
+27
+c<a and c<b and c<d and c<e
+4
+1
+27
+'El numero 3:',c,'Es menor'
+13
+7
+0
+1
+27
+d<a and d<b and d<c and d<e
+4
+1
+27
+'El numero 4:',d,'Es menor'
+13
+7
+0
+1
+27
+e<a and e<b and e<c and e<d
+4
+1
+27
+'El numero 5:',e,'Es menor'
+13
+13
+13
+13
+13
+13
+1

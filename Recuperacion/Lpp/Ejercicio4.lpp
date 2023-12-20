@@ -1,0 +1,9 @@
+entero a,b,c
+inicio
+escriba "Digite tiempo de duracion en el parqueadero"
+lea a
+escriba "Digite el valor de la hora "
+lea b
+c<- a*b
+escriba "El costo total es",c
+fin

@@ -1,0 +1,29 @@
+entero a,b,c,d,e
+inicio
+escriba "Digite valor"
+lea a,b,c,d,e
+si (a>b) y (a>c) y (a>d) y (a>e) entonces
+llamar nueva_linea
+escriba "El numero 1:",a,"Es mayor"
+sino 
+fin si
+si (b>a)y (b>c) y (b>d) y (b>e) entonces
+llamar nueva_linea
+escriba " el numero 2:",b,"Es mayor"
+sino
+fin si
+si (c>a) y (c>b) y (c>d) y (c>e) entonces
+llamar nueva_linea
+escriba "El numero 3:",c,"Es mayor"
+sino
+fin si
+si (d>a) y (d>b) y (d>c) y (d>e) entonces
+llamar nueva_linea
+escriba "El numero 4:",d,"Es mayor"
+sino
+fin si
+si (e>a) y (e>b) y (e>c) y (e>d) entonces
+escriba "el numero 5:",e,"Es mayor"
+sino
+fin si 
+fin

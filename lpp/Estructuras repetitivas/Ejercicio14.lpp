@@ -1,0 +1,38 @@
+entero inic,fn,i,a,b,c,x
+inicio
+escriba "ingrese el numero que quiere comenzar"
+lea inic
+escriba "Ingrese el número que quiere finalizar"
+lea fn
+si inic<fn entonces
+llamar nueva_linea
+para i<- inic hasta fn haga
+x<- x+1
+a<-0
+para b <- 1 hasta i haga 
+x<- x+1
+si i mod b = 0 entonces
+llamar nueva_linea
+a<- a+1
+fin si
+fin para
+si a =2 entonces
+llamar nueva_linea
+escriba "El numero"  ,i,  "Es primo"
+sino 
+escriba "El numero ",i, " no es primo"
+fin si
+c<- i mod 2
+si c=1 entonces
+llamar nueva_linea
+escriba "El número ",i, " es impar"
+sino
+escriba "El número ",i," es par"
+fin si
+fin para
+sino
+escriba "El primer numero es mayor al segundo, por favor ingrese el primer numero menor al segundo"
+fin si
+fin
+
+

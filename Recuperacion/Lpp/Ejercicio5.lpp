@@ -1,0 +1,7 @@
+entero a,b
+inicio
+escriba "Digite metros"
+lea a
+b<- a*a*100
+escriba "El costo total es",b
+fin

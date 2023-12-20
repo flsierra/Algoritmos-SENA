@@ -1,0 +1,16 @@
+entero a,b,c,d,e
+inicio
+	escriba "Digite edad actual = "
+	lea a
+	b<-(a*12)
+	c<-(b*4)
+	d<-(c*7)
+	e<-(d*24)
+	escriba "Meses de vida = ",b
+	llamar nueva_linea
+	escriba "Semanas de vida = ",c
+	llamar nueva_linea
+	escriba "Dias de vida = ",d
+	llamar nueva_linea
+	escriba "Horas de vida = ",e
+fin 

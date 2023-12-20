@@ -1,0 +1,26 @@
+entero a,cant,num,mayor,menor,suma
+inicio
+escriba "Cuantos números quiere ingresar"
+lea cant
+escriba "Ingrese",cant,"de numeros"
+lea num
+mayor <- num
+menor <- num
+suma <- num
+para a <- 1 hasta cant-1 haga
+a<- a+1
+lea num
+suma<- suma+num
+si num>mayor entonces
+mayor<- num
+sino
+fin si
+si num<menor entonces 
+menor<- num
+sino
+fin si
+fin para
+escriba "El numero mayor ",mayor
+escriba "El numero menor ",menor
+escriba "La suma es  ",suma
+fin

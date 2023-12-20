@@ -1,0 +1,9 @@
+real a,b,t
+inicio
+escriba "Digite distancia"
+lea a
+escriba "Digite el velocidad"
+lea b
+t<- a/b
+escriba "El tiempo que tarda es ",t
+fin

@@ -1,0 +1,12 @@
+entero a
+cadena[10] numero
+inicio
+escriba "Digite el numero"
+lea a
+si a>0 entonces
+escriba "Positivo"
+llamar nueva_linea
+sino
+escriba "Negativo"
+fin si
+fin                                                                                        

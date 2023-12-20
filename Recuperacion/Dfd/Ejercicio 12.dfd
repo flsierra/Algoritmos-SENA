@@ -1,0 +1,33 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+30
+'Digite el valor del articulo'
+5
+1
+1
+a
+6
+3
+1
+b
+7
+(a*0.2)
+1
+c
+6
+a*0.15
+1
+d
+9
+(a-(b-c))
+4
+1
+90
+'El iva del 15% es',c,'El descuento del producto es',b,'El precio total del articulo es',d
+1

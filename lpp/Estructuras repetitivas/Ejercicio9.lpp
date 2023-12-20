@@ -1,0 +1,36 @@
+entero x,a,cont1,cont2,cont3,suma1,suma2,num
+inicio
+escriba"ingrese 20 numeros"
+a<-0
+cont1<-0
+cont2<-0
+cont3<-0
+suma1<-0
+suma2<-0
+para a <- 1 hasta 20 haga
+x <- x+1
+lea num 
+si num > 0 entonces
+sino
+cont1<-cont1+1
+suma1<-suma1+num
+fin si
+si num > 1 entonces
+llamar nueva_linea
+cont3 <- cont3+1
+suma2 <- suma2+num
+sino 
+cont2<- cont2+1
+fin si 
+fin para 
+escriba "hay ",cont1," menores a 0"
+llamar nueva_linea
+escriba "la suma de los numeros antes del cero es igual a ", suma1
+llamar nueva_linea
+escriba "hay ",cont2," iguales a 0"
+llamar nueva_linea
+escriba "hay ",cont3," mayores a 0"
+llamar nueva_linea
+escriba "la suma de los numeros despues del cero es igual a ",suma2
+llamar nueva_linea
+fin

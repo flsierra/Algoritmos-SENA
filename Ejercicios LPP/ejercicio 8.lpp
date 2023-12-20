@@ -1,0 +1,14 @@
+entero a,b,c,d,e,f,g,h,i
+cadena[10] numero
+inicio
+
+escriba "Escriba los valores "
+lea a,b,c,d
+
+e<-a*10/100
+f<-b*20/100
+g<-c*30/100
+h<-d*40/100
+i<-e+f+g+h
+escriba "el promedio es ",i
+fin

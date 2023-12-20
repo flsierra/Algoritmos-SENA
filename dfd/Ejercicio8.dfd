@@ -1,0 +1,67 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+37
+'Ingresar valor de pretamo o capital'
+5
+1
+1
+c
+7
+0
+1
+13
+c >= 20000000
+6
+3
+2
+EQ
+10
+(35*c)/100
+1
+M
+10
+(25*c)/100
+2
+CI
+10
+(20*c)/100
+6
+1
+1
+I
+10
+(20*c)/100
+13
+6
+3
+2
+EQ
+10
+(35*c)/100
+1
+M
+10
+(25*c)/100
+2
+CI
+10
+(20*c)/100
+6
+1
+1
+I
+10
+(20*c)/100
+13
+4
+1
+123
+'se destinarán para la
+compra de: equipos de cómputo',EQ,' mobiliario',M,' compra de insumos',CI,' y otorgar incentivo.',I
+1

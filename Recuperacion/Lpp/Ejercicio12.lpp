@@ -1,0 +1,14 @@
+	real a,b,c,d
+	inicio
+	escriba "Digite el valor del articulo = "
+	lea a
+	b<-(a*0.2)
+	c<-(a*0.15)
+	d<-(a-(b-c))
+	llamar nueva_linea
+	escriba "Iva del 15% = ",c
+	llamar nueva_linea
+	escriba "Descuento = ",b
+	llamar nueva_linea
+	escriba "Valor final del articulo = ",d
+	fin

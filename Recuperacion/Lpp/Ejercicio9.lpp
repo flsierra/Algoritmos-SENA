@@ -1,0 +1,7 @@
+entero a,b
+inicio
+escriba "Digite cantidad de minutos"
+lea a
+b<- 1*a*100
+escriba "El costo total es",b
+fin
